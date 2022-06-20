@@ -10,6 +10,7 @@ function preload(){
    "Images/HotAirBallon02.png","Images/HotAirBallon03.png","Images/HotAirBallon03.png","Images/HotAirBallon03.png");
   }
 
+  
 //Função para definir o ambiente inicial
 function setup() {
 
@@ -30,6 +31,8 @@ function setup() {
 }
 
 // função para exibir a UI
+
+
 function draw() {
   background(bg);
 
@@ -73,11 +76,11 @@ function draw() {
 //   balloon.y = height.y;
 // }
 
-// function readHeight(data){
-//   height = data.val();
-//   balloon.x = height.x;
-//   balloon.y = height.y;
-// }
+function readHeight(data){
+  height = data.val();
+  balloon.x = height.x;
+  balloon.y = height.y;
+}
 
 // function readHeight(data){
 //   height = data.val();
